@@ -31,7 +31,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(sub(0, 100), -100)
 
     def test_multiply(self):
-        self.assertEqual(multiply(10, 5), 50)
+        self.assertEqual(multiply(5, 5), 50)
         self.assertEqual(multiply(-10, 2), -20)
         self.assertEqual(multiply(0, 100), 0)
 
